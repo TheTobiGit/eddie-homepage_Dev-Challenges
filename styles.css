@@ -16,10 +16,19 @@
 
 a {
   color: inherit;
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
 }
 
 body {
-  margin: 3vh 3vw;
+  /* margin: 3vh 3vw 0 3vw; */
+}
+
+.content {
+  margin: 3vh 3vw 0 3vw;
 }
 
 .header {
@@ -28,17 +37,17 @@ body {
   align-items: center;
 }
 
-.logo {
+.header .logo {
   font-family: 'Heebo', sans-serif;
   font-size: 30px;
   font-weight: 800;
 }
 
-.nav ul {
+.header .nav ul {
   display: flex;
 }
 
-.nav ul li {
+.header .nav ul li {
   font-size: 20px;
   color: #333333;
   font-weight: 500px;
@@ -199,7 +208,7 @@ body {
 
 .designs .cards {
   margin-top: 20px;
-  
+
 }
 
 .designs .gal {
@@ -219,6 +228,7 @@ body {
 
 .designs .cards .c1 {
   margin-top: 20vh;
+  margin-right: 3vw;
 }
 
 .designs .p1 {
@@ -259,4 +269,142 @@ body {
 
 .team {
   margin: 25vh 0 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team .p1 {
+  color: #EB5757;
+  font-weight: 500;
+}
+
+.team .p2 {
+  margin-top: 10px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.team .p3 {
+  margin-top: 10px;
+  width: 200px;
+  font-size: 10px;
+  color: #4F4F4F;
+}
+
+.team .members {
+  display: flex;
+  align-items: center;
+  margin-right: 6vw;
+}
+
+.team .card1 img {
+  margin-left: 50px;
+  width: 70%;
+}
+
+.team .card3 {
+  margin-top: 20px;
+}
+
+.team .members img {
+  border-radius: 10px;
+  width: 80%;
+}
+
+.remarks {
+  margin: 14vh 0 0 10vw;
+}
+
+.remarks .p1 {
+  width: 550px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.remarks .person {
+  display: flex;
+  margin-top: 4vh;
+}
+
+.remarks .person img {
+  border-radius: 10px;
+  width: 70px;
+}
+
+.remarks .job {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.remarks .job .p2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.remarks .job .p3 {
+  color: #828282;
+  font-size: 15px;
+}
+
+.footer {
+  padding: 30px 30px 10px 30px;
+  margin-top: 15vh;
+  color: #FFFF;
+  background: #100E1D;
+}
+
+.footer .foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .logo {
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.footer .nav {
+  font-size: 15px;
+}
+
+.footer .nav li {
+  padding-bottom: 7px;
+}
+
+.footer .socials img {
+  padding-right: 9px;
+}
+
+.footer .mail input {
+  background: #F2F2F2;
+  margin-top: 10px;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 7px;
+  border: none;
+}
+
+.footer .mail span {
+  background: #2D9CDB;
+  color: #fff;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 287px;
+  height: 36px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+
+.footer .link {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
 }
