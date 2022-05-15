@@ -10,7 +10,7 @@
   box-sizing: border-box;
   text-decoration: 0;
   list-style: none;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -45,3 +45,218 @@ body {
   padding-left: 30px;
 }
 
+.topcont {
+  margin-top: 90px;
+}
+
+.inf {
+  margin-left: 15vw;
+}
+
+.inf .p1 {
+  color: #2D9CDB;
+}
+
+.inf .p2 {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 500;
+  width: 450px;
+}
+
+.topcont .img {
+  margin-top: 40px;
+}
+
+.topcont .img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.inf .p3 {
+  color: #4F4F4F;
+  margin-top: 30px;
+  width: 350px;
+}
+
+.topcont .contact {
+  margin: 7vh 0 0 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.topcont .contact label {
+  font-size: 13px;
+  color: #4F4F4F;
+}
+
+.topcont .contact input {
+  background: #F2F2F2;
+  margin-top: 10px;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 7px;
+  border: none;
+}
+
+.topcont .mail span {
+  background: #2D9CDB;
+  color: #fff;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 290px;
+  height: 40px;
+  width: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+
+.services .p1 {
+  color: #333333;
+  margin: 17vh 0 0 10vw;
+  width: 300px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.services .cards {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 13vw 0 13vw;
+}
+
+.services .cards .card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.services .cards .card:hover {
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.services .card .ico {
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.services .ico img {
+  width: 70%;
+}
+
+.services .card .p2 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.services .card .p3 {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.services .card button {
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  color: #828282;
+}
+
+.services .card button:hover {
+  background: #2D9CDB;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.card .i1 {
+  background: #2D9CDB;
+}
+
+.card .i2 {
+  background: #27AE60;
+
+}
+
+.card .i3 {
+  background: #EB5757;
+}
+
+.designs {
+  margin: 17vh 0 0 10vw;
+}
+
+
+.designs .cards {
+  margin-top: 20px;
+  
+}
+
+.designs .gal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.designs .cards .card {
+  width: 545px;
+  height: 545px;
+}
+
+.designs .cards img {
+  border-radius: 10px;
+  width: 90%;
+}
+
+.designs .cards .c1 {
+  margin-top: 20vh;
+}
+
+.designs .p1 {
+  color: #333333;
+  width: 300px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.designs .p2 {
+  color: #828282;
+  font-size: 9px;
+  margin-top: 7px;
+}
+
+.designs .p3 {
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.designs .more {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 71vw;
+  cursor: pointer;
+  color: #2D9CDB;
+  margin-top: 13px;
+}
+
+.designs .more img {
+  padding-left: 10px;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+.team {
+  margin: 25vh 0 0 10vw;
+}
