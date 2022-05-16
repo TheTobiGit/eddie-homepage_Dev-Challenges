@@ -23,13 +23,11 @@ li {
   cursor: pointer;
 }
 
-body {
-  /* margin: 3vh 3vw 0 3vw; */
-}
-
 .content {
   margin: 3vh 3vw 0 3vw;
 }
+
+/* navbar */
 
 .header {
   display: flex;
@@ -53,6 +51,7 @@ body {
   font-weight: 500px;
   padding-left: 30px;
 }
+
 
 .topcont {
   margin-top: 90px;
@@ -407,4 +406,165 @@ body {
   margin-top: 10vh;
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .header .nav ul {
+    display: none;
+  }
+
+  .content {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .topcont {
+    margin-top: 40px;
+  }
+
+  .inf {
+    margin-left: 4vw;
+  }
+
+  .inf .p2 {
+    font-size: 20px;
+    width: 220px;
+  }
+
+  .inf .p3 {
+    width: 260px;
+  }
+
+  .topcont .contact {
+    margin: 5vh 0 0 4vw;
+  }
+
+  .topcont .contact input {
+    width: 260px;
+  }
+
+  .topcont .mail span {
+    margin-left: 197.9px;
+  }
+
+  .services .p1 {
+    margin: 17vh 0 0 4vw;
+    width: 280px;
+  }
+
+  .services .cards {
+    flex-direction: column;
+    margin: 5vh 4vw 0 4vw;
+  }
+
+  .services .cards .card {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  }
+
+  .designs {
+    margin: 7vh 0 0 4vw;
+  }
+
+  .designs .cards {
+    margin-top: 70px;
+  }
+
+  .designs .gal {
+    flex-direction: column;
+  }
+
+  .designs .cards .card {
+    width: 290px;
+    height: 290px;
+  }
+
+  .designs .cards img {
+    width: 100%;
+  }
+
+  .designs .cards .c1 {
+    margin: 0;
+  }
+
+  .designs .more {
+    margin-top: 60px;
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .team {
+    margin: 10vh 0 0 4vw;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .team .members {
+    flex-direction: column;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .team .card img {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .remarks {
+    margin: 12vh 0 0 4vw;
+  }
+
+  .remarks .p1 {
+    width: 290px;
+  }
+
+  .footer {
+    padding: 14px;
+  }
+
+  .footer .foot {
+    flex-direction: column;
+  }
+
+  .footer .logo {
+    margin-top: 20px;
+  }
+
+  .footer .contact {
+    margin-top: 20px
+  }
+
+  .footer .contact label {
+    font-size: 11px;
+  }
+
+  .footer .mail input {
+    width: 280px;
+  }
+
+  .footer .mail span {
+    margin-left: 217px;
+  }
+
+  .link a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .inf .p3 {
+    width: 320px;
+  }
+
+  .services .cards {
+    margin-left: 18vw;
+  }
+
+  .designs .cards {
+    margin-left: 12vw;
+  }
+
+  .designs .more {
+    margin-left: 50px;
+  }
 }
