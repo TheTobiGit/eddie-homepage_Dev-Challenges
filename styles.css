@@ -52,6 +52,9 @@ li {
   padding-left: 30px;
 }
 
+.header #icon {
+  display: none;
+}
 
 .topcont {
   margin-top: 90px;
@@ -411,6 +414,15 @@ li {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .header .nav ul {
     display: none;
+  }
+
+  .header .nav li {
+    display: block;
+  }
+
+  .header #icon {
+    font-size: 22px;
+    cursor: pointer;
   }
 
   .content {
